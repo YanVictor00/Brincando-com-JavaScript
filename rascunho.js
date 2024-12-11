@@ -78,3 +78,9 @@ function adicionarTarefa() {
     document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras. <br>`)
     document.write(`Seu nome com todas as letras maiúsculas é ${nome.toUpperCase()}. <br>`)
     document.write(`Seu nome com todas as letras menúsculas é ${nome.toLowerCase()}. <br>`)
+
+
+//converto o valor da variável para BRL e trocando a ',' da variável por '.'
+    var dinheiro = 1890.5
+    dinheiro.toFixed(2).toLocaleString('pr-BR', {style: 'currency', currency: 'BRL'})
+    dinheiro.toFixed(2).replace(".", ",")
