@@ -51,4 +51,30 @@ function adicionarTarefa() {
         document.getElementById("mensagem").textContent = "Por favor, insira uma tarefa válida!";
     }
 }
-  
+
+
+//alert, confirm and prompt.
+    window.alert("Isso é um alerta!")
+    window.confirm("Ok ou cancel")
+    window.prompt("Escreva algo")
+
+
+//usando o valor do prompt em um alerta.
+    let nome = window.prompt("Código do colaborador")
+    window.alert("Seja bem vindo, " + nome + "!")
+
+
+//Conversão de Number() e String().
+    var n1 = Number(window.prompt("Digite um número: "))
+    var n2 = Number(window.prompt("Digite outro número: "))
+    var idade = String(window.prompt("Qual é a sua idade: "))
+    var soma = n1 + n2
+    //usando ${} em string para facilitar o uso de variáveis.
+    window.alert(`A soma de ${n1} e ${n2} fica no valor de ${soma}!`)
+
+
+//coletando o nome e ilustrando em outras linhas a string em quantidades de letras, tudo maiúsculo e tudo minúsculo. 
+    var nome = window.prompt("Qual é o seu nome?")
+    document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras. <br>`)
+    document.write(`Seu nome com todas as letras maiúsculas é ${nome.toUpperCase()}. <br>`)
+    document.write(`Seu nome com todas as letras menúsculas é ${nome.toLowerCase()}. <br>`)
