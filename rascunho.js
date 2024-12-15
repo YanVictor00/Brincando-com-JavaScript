@@ -84,3 +84,27 @@ function adicionarTarefa() {
     var dinheiro = 1890.5
     dinheiro.toFixed(2).toLocaleString('pr-BR', {style: 'currency', currency: 'BRL'})
     dinheiro.toFixed(2).replace(".", ",")
+
+
+//Usando o DOM (Document Object Model)
+ //por TAG
+ let p1 = window.document.getElementsByTagName('p')[0]
+ let corpo = window.document.body
+ window.document.write('Está escrito : ' + p1.innerText)
+ p1.style.color = 'red'
+ corpo.style.background = 'rgb(50,50,50)'
+
+ //mostrando o titulo do site
+ window.document.write(window.document.title)
+
+ //por ID
+ let msg = document.getElementById('msg')
+ msg.style.background = 'white'
+ msg.innerText = 'Mudei a mensagem'
+
+ //por Classes
+ let msg = window.document.getElementsByClassName('msg')[0]
+ msg.innerText = 'aoba'
+
+
+ 
