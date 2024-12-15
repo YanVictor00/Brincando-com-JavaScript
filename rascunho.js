@@ -106,5 +106,6 @@ function adicionarTarefa() {
  let msg = window.document.getElementsByClassName('msg')[0]
  msg.innerText = 'aoba'
 
-
- 
+//por Seletor
+let a = document.querySelector('div.msg')
+a.style.color = 'red'
