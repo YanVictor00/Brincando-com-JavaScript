@@ -116,3 +116,12 @@ if(vel > 40){
     console.log("Você ultrapassou da velocidade recomendada. Multado!")
 }
 console.log("Dirija com cuidado!")
+
+//Condição composta
+let pais = "EUA"
+console.log(`Vivendo em ${pais}`)
+if(pais == 'Brasil'){
+    console.log("É BRASILEIRO!")
+}else{
+    console.log('É ESTRANGEIRO!') 
+}
