@@ -109,3 +109,10 @@ function adicionarTarefa() {
 //por Seletor
 let a = document.querySelector('div.msg')
 a.style.color = 'red'
+
+//condição simples
+let vel = 12
+if(vel > 40){
+    console.log("Você ultrapassou da velocidade recomendada. Multado!")
+}
+console.log("Dirija com cuidado!")
