@@ -154,3 +154,34 @@ if(idade < 16){
     console.log("VOTO OBRIGATÓRIO!");
 
 }
+
+
+//condição múltiplas 
+let agora = new Date()
+let diadaSem = agora.getDay()
+switch(diadaSem){
+    case 0:
+        console.log("É DOMINGO")
+    break
+    case 1:
+        console.log("É SEGUNDA")
+    break
+    case 2:
+        console.log("É TERÇA")
+    break
+    case 3:
+        console.log("É QUARTA")
+    break
+    case 4:
+        console.log("É QUINTA")
+    break
+    case 5:
+        console.log("É SEXTA")
+    break
+    case 6:
+        console.log("É SÁBADO")
+    break
+    default:
+        console.log("[ERRO] Dia inválido.");
+        
+}
