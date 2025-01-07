@@ -1,0 +1,13 @@
+{
+    "anime": "Akame ga kill",
+    "lancamento": "2010",
+    "catetgoria": ["fantasia", "shounen", "ecchi"],
+    "personagens": [{
+        "nome": "Tatsumi",
+        "status": "Guerreiro"
+    },
+    {
+        "nome": "Akame",
+        "status": "Espadachim Assasina"
+    }]
+}
