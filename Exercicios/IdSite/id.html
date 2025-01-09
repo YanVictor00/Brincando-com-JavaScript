@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDENTITY.YAN</title>
+    <link rel="stylesheet" href="id.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:  <input type="number" id="txtano" name="txtano" min="1"></p><br>
+            <p>Sexualidade:  <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>        
+            </p>
+            <p><button id="bt" onclick="verificar()">Verificar</button></p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+
+    <footer><p>&copy; YAN ROCHA</p></footer>
+    <script src="id.js"></script>
+</body>
+</html>
