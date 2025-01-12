@@ -182,6 +182,6 @@ switch(diadaSem){
         console.log("É SÁBADO")
     break
     default:
-        console.log("[ERRO] Dia inválido.");
-        
+        console.log("[ERRO] Dia inválido.");       
 }
+
