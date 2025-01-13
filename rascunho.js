@@ -185,3 +185,17 @@ switch(diadaSem){
         console.log("[ERRO] Dia inválido.");       
 }
 
+
+//REPETIÇOES
+let _ = 1
+while( _ <= 0 ){
+    console.log(`repeti isso ${_}`);
+    _++
+    
+}
+//or
+let c = 1
+do{
+    console.log(`repeti isso ${c}`);
+    c++
+}while(c <= 0)
