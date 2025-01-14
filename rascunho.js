@@ -199,3 +199,8 @@ do{
     console.log(`repeti isso ${c}`);
     c++
 }while(c <= 0)
+//or
+for(let a = 1; a <= 10; a++){
+    console.log(a);
+    
+}
