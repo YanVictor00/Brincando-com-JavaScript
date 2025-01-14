@@ -34,3 +34,9 @@ button{
     background-color: rgb(168, 216, 203);
     font-weight: bold;
 }
+.a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
