@@ -204,3 +204,13 @@ for(let a = 1; a <= 10; a++){
     console.log(a);
     
 }
+
+// Parâmetros
+// Argumentação
+// Retorno                  
+function pedidoPizza(tipoDaBorda, tipoDoSabor){
+    const pizza = `Descrição do Pedido. Borda: ${tipoDaBorda}. Sabor: ${tipoDoSabor}`
+    return pizza
+}
+let pedido1 = pedidoPizza('Chocolate', 'Portuguesa')
+console.log(pedido1);
