@@ -214,3 +214,36 @@ function pedidoPizza(tipoDaBorda, tipoDoSabor){
 }
 let pedido1 = pedidoPizza('Chocolate', 'Portuguesa')
 console.log(pedido1);
+
+
+// Variável composto || Array
+let v = [5, 8, 2, 9, 3]
+//v.push() // adiciona o valor no elemento final
+//v.length //conta os elementos
+//v.sort() // coloca em ordem crescente
+console.log(`Nosso vetor é o ${v}`)
+console.log(`Tem ${v.length} elementos`)
+v.sort()
+console.log(`Nosso vetor em ordem crescente fica ${v}`)
+
+
+// array com repetição
+let yan = [8, 1, 4, 5]
+yan.sort()
+/*
+for(let pos = 0; pos < yan.length; pos++){
+    console.log(`O elemento ${pos} tem o valor ${yan[pos]}`)
+}
+*/      //or
+for(let pos in yan){
+    console.log(`O elemento ${pos} tem o valor ${yan[pos]}`)
+}
+let src = yan.indexOf(1) // procura o valor em um dos elementos
+if(src == -1){
+    console.log("Não foi encontrado nenhum valor em um dos elementos. :/");
+    
+}else{
+    console.log(`O valor está no elemento ${src}`);
+}
+
+
