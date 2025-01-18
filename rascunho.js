@@ -247,3 +247,35 @@ if(src == -1){
 }
 
 
+//Parametros e impar ou par.
+function parimp(n){
+    if(n%2 == 0){
+        return 'Par'
+    }else{
+        return 'Ímpar'
+    }
+}
+let x = 0
+let res = parimp(x)
+console.log(res);
+
+
+//Paramentros Soma
+function soma(n1, n2){
+    let somador = n1 + n2
+    return somador
+}
+let resultado = soma(5, 2)
+console.log(resultado);
+
+
+//Paramentros Fatoração
+function fatorial(n){
+    let end = 1
+    for(let c = n; c > 1; c-- ){
+        end *= c
+    }
+    return end
+}
+let y = 9
+console.log(fatorial(y));
