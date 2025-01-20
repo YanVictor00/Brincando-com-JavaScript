@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(39, 39, 39);
+    font: normal 17pt Arial;
+    
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 28vw;
+    margin: auto;
+    
+    box-shadow: 3px 3px 10px black;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.d1, .d3, .res{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.d2{
+    padding: 15px 0px 0px 1vw;
+    justify-content: space-around;
+    display: flex;
+}
+.d2 img{
+    width: 9vw;
+
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+.d3, .res{
+    margin-top: 20px;
+}
+@keyframes animacao{
+    0% {margin-right: 80px;}
+    50% {margin-right: 0px;}
+    100% {margin-right: 80px;}
+}
