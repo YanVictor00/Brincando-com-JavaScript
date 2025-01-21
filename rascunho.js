@@ -312,3 +312,27 @@ console.log(amigo.sexo)
 console.log(amigo.peso)
 console.log(amigo.engordar(2))*/
 
+
+
+//Usando a biblioteca Math.
+const n1 = 9
+const n2 = 2
+
+const potencia = Math.pow(5, 2)
+console.log(potencia)
+const raiz = Math.sqrt(4, 2)
+console.log(Math.ceil(raiz))
+console.log(Math.floor(raiz))
+
+const aleatorio = Math.random() * (3 - 0) + 0
+console.log(Math.ceil(aleatorio));
+
+
+let teste = [1,2,3]
+const sorteio = Math.random() * (teste[2] - teste[0]) + teste[0]
+console.log(sorteio.toFixed(0));
+
+
+
+
+
