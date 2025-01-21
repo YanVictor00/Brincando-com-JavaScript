@@ -293,3 +293,22 @@ function fatorial(n){
 }
 console.log(fatorial(0));
 
+
+// OBJETOS
+let amigo = {nome:'YAN', 
+    sexo:'M', 
+    peso:72.5, 
+    engordar(p = 0){
+        console.log("Engordou!");
+        this.peso += p
+    }
+}
+amigo.engordar(5)
+console.log(amigo.peso);
+
+
+/*console.log(amigo.nome)
+console.log(amigo.sexo)
+console.log(amigo.peso)
+console.log(amigo.engordar(2))*/
+
